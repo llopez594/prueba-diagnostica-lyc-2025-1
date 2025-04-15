@@ -1,6 +1,10 @@
 <?php
 
-/*
+/* 
+    FEN
+    rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 
+
+
 CASOS A VALIDAR EN EL ALGORITMO:
     - 6 partes separadas por espacio
     - Tablero con 8 filas válidas
@@ -86,8 +90,8 @@ function validarFEN($cadena) {
 }
 
 // Prueba
-$ejemplo = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
-// $ejemplo = "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1";
+#$ejemplo = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+$ejemplo = "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e7 0 1";
 // $ejemplo = "rnbqk1nr/pp2bppp/4p3/2pp4/4P3/2N2N2/PPP2PPP/R1BQKB1R w KQkq c6 0 5";
 
 if (validarFEN($ejemplo)) {
